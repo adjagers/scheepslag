@@ -17,7 +17,7 @@ public class Main {
         // But play methode is private !?!?!?
         // seaBattle.play();
 
-        computerField.generateField();
+        // computerField.generateField();
             }
 }
 

@@ -1,10 +1,23 @@
+
 public class Square {
 
+    private Ship ship = null;
 
-    private char content = '?';
+  public  Square () {
 
-    Square () {
-        content = '.';
     }
+
+    getContent () {
+        char squareContent = '?';
+
+        if (ship ==  null) {
+            squareContent = '.';
+        } else {
+            squareContent = ship.getChar();
+        }
+
+
+    }
+
     
 }

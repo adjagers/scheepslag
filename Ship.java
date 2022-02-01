@@ -15,6 +15,16 @@ public class Ship {
         // TODO :: IF SHIP GETS HIT CHANGE LENGTH SHIP
     }
 
+    public char getLetter() {
+        char result = '?';
+
+        if(type.length()> 0) {
+            result = type.charAt(0);
+
+        }
+        return result;
+    }
+
     public int getLength() {
         return length;
     }
